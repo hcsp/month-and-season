@@ -11,6 +11,6 @@ class MainTest {
         int n = new java.util.Random().nextInt(12) + 1;
         assertEquals("非法输入", Math.monthSeason(-1));
         assertEquals("非法输入", Math.monthSeason(13));
-        assertEquals(String.format("%d月是%d季", n, seasons[(n - 1) / 3]), Math.monthSeason(13));
+        assertEquals(String.format("%d月是%s季", n, seasons[(n - 1) / 3]), Main.monthSeason(n));
     }
 }
