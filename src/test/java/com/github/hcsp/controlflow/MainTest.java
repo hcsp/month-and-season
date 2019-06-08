@@ -9,8 +9,8 @@ class MainTest {
     public void test() {
         String[] seasons = new String[] {"春", "夏", "秋", "冬"};
         int n = new java.util.Random().nextInt(12) + 1;
-        assertEquals("非法输入", Math.monthSeason(-1));
-        assertEquals("非法输入", Math.monthSeason(13));
+        assertEquals("非法输入", Main.monthSeason(-1));
+        assertEquals("非法输入", Main.monthSeason(13));
         assertEquals(String.format("%d月是%s季", n, seasons[(n - 1) / 3]), Main.monthSeason(n));
     }
 }
