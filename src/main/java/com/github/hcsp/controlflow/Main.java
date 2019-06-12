@@ -19,39 +19,5 @@ public class Main {
      * @param month 月份
      * @return 结果字符串
      */
-    public static String monthSeason(int month) {
-        if (month < 1 || month > 12) {
-            return "非法输入";
-        }
-        String[] seasons = new String[]{"春", "夏", "秋", "冬"};
-
-        return String.format("%d月是%s季", month, seasons[(month - 1) / 3]);
-//         String season = "";
-
-//        switch (month) {
-//            case 1:
-//            case 2:
-//            case 3:
-//                season = "春";
-//                break;
-//            case 4:
-//            case 5:
-//            case 6:
-//                season = "夏";
-//                break;
-//            case 7:
-//            case 8:
-//            case 9:
-//                season = "秋";
-//                break;
-//            case 10:
-//            case 11:
-//            case 12:
-//                season = "冬";
-//                break;
-//            default:
-//                break;
-//        }
-//        return String.format("%d月是%s季", month, season);
-    }
+    public static String monthSeason(int month) {}
 }
