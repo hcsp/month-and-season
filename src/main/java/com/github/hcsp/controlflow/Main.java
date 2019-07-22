@@ -24,19 +24,19 @@ public class Main {
             case 1:
             case 2:
             case 3:
-                return month+"是春季";
+                return month+"月是春季";
             case 4:
             case 5:
             case 6:
-                return month+"是夏季";
+                return month+"月是夏季";
             case 7:
             case 8:
             case 9:
-                return month+"是秋季";
+                return month+"月是秋季";
             case 10:
             case 11:
             case 12:
-                return month+"是冬季";
+                return month+"月是冬季";
                 default:
                     return "非法输入";
         }
