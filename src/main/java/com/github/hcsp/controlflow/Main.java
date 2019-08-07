@@ -19,24 +19,5 @@ public class Main {
      * @param month 月份
      * @return 结果字符串
      */
-    public static String monthSeason(int month) {
-        String s ;
-        switch (month){
-            case 1: s="1月是春季";break;
-            case 2: s="2月是春季";break;
-            case 3: s="3月是春季";break;
-            case 4: s="4月是夏季";break;
-            case 5: s="5月是夏季";break;
-            case 6: s="6月是夏季";break;
-            case 7: s="7月是秋季";break;
-            case 8: s="8月是秋季";break;
-            case 9: s="9月是秋季";break;
-            case 10: s="10月是冬季";break;
-            case 11: s="11月是冬季";break;
-            case 12: s="12月是冬季";break;
-            default:s="非法输入";break;
-
-        }
-        return s;
-    }
+    public static String monthSeason(int month) {}
 }
