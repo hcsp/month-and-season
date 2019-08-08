@@ -19,27 +19,5 @@ public class Main {
      * @param month 月份
      * @return 结果字符串
      */
-    public static String monthSeason(int month) {
-        String[] str = {"春季", "夏季", "秋季", "冬季"};
-        switch (month) {
-            case 1:
-            case 2:
-            case 3:
-                return (month + "月是" + str[0]);
-            case 4:
-            case 5:
-            case 6:
-                return (month + "月是" + str[1]);
-            case 7:
-            case 8:
-            case 9:
-                return (month + "月是" + str[2]);
-            case 10:
-            case 11:
-            case 12:
-                return (month + "月是" + str[3]);
-            default:
-                return "非法输入";
-        }
-    }
+    public static String monthSeason(int month) {}
 }
