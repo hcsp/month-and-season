@@ -19,20 +19,5 @@ public class Main {
      * @param month 月份
      * @return 结果字符串
      */
-    public static String monthSeason(int month) {
-        if(month < 1 || month > 12) {
-            return "非法输入";
-        }
-
-        if(month <= 3) {
-            return month + "月是春季";
-        }
-        if(month <= 6) {
-            return month + "月是夏季";
-        }
-        if(month <= 9) {
-            return month + "月是秋季";
-        }
-        return month + "月是冬季";
-    }
+    public static String monthSeason(int month) {}
 }
