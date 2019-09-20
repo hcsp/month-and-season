@@ -19,5 +19,27 @@ public class Main {
      * @param month 月份
      * @return 结果字符串
      */
-    public static String monthSeason(int month) {}
+    public static String monthSeason(int month) {
+        if(month < 1 || moth > 12){
+            return "非法输入";
+        }
+        switch(month）{
+            case:1
+            case:2
+            case:3
+                return "春季";
+            case:4
+            case:5
+            case:6
+                return "夏季";
+            case:7
+            case:8
+            case:9
+                return "秋季";
+            case:10
+            case:11
+            case:12
+                return "冬季";
+        }
+    }
 }
