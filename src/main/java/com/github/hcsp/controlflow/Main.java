@@ -22,11 +22,11 @@ public class Main {
     public static String monthSeason(int month) {
         if(month >= 1&& month <= 3){
             return month + "月是春季";
-        } else if(month >= 1&& month <= 3){
+        } else if(month >= 4&& month <= 6){
             return month + "月是夏季";
-        } else if(month >= 1&& month <= 3){
+        } else if(month >= 7&& month <= 8){
             return month + "月是秋季";
-        } else if(month >= 1&& month <= 3){
+        } else if(month >= 10&& month <= 12){
             return month + "月是冬季";
         } else {
             return "非法输入";
