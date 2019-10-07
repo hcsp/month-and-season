@@ -12,6 +12,6 @@ public class MainTest {
         Assertions.assertEquals("非法输入", Main.monthSeason(-1));
         Assertions.assertEquals("非法输入", Main.monthSeason(13));
         Assertions.assertEquals(
-                String.format("%d月是%s季", n, seasons[(n - 1) / 3]), Main.monthSeason(n));
+                String.format("%d月是%s季", n, seasons[(n > 2 && n < 6) ? 0 : ((n > 5 && n< 9) ? 1 : ((n > 8 && n < 12) ? 2 : 3))]), Main.monthSeason(n));
     }
 }
