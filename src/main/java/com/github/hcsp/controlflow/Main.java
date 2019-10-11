@@ -38,24 +38,24 @@ public class Main {
 //        }
 //            return month+"月是"+season+"季";
         switch (month) {
-            case 3:
-            case 4:
-            case 5:
-                season = "春";
-                break;
-            case 6:
-            case 7:
-            case 8:
-                season = "夏";
-                break;
-            case 9:
-            case 10:
-                season = "秋";
-                break;
-            case 11:
-            case 12:
             case 1:
             case 2:
+            case 3:
+                season = "春";
+                break;
+            case 4:
+            case 5:
+            case 6:
+                season = "夏";
+                break;
+            case 7:
+            case 8:
+            case 9:
+                season = "秋";
+                break;
+            case 10:
+            case 11:
+            case 12:
                 season = "冬";
 
                 break;
