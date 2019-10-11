@@ -50,9 +50,9 @@ public class Main {
                 break;
             case 9:
             case 10:
-            case 11:
                 season = "秋";
                 break;
+            case 11:
             case 12:
             case 1:
             case 2:
