@@ -23,29 +23,28 @@ public class Main {
         if(month < 1 || month > 12){
             return "非法输入";
         } else {
-            switch (month){
+            switch (month) {
                 case 1:
-                    return month + "是春季";
+                    return "1月是春季";
                 case 2:
-                    return month + "是春季";
+                    return "2月是春季";
                 case 3:
-                    return month + "是春季";
+                    return "3月是春季";
                 case 4:
-                    return month + "是夏季";
+                    return "4月是夏季";
                 case 5:
-                    return month + "是夏季";
+                    return "5月是夏季";
                 case 6:
-                    return month + "是夏季";
+                    return "6月是夏季";
                 case 7:
-                    return month + "是秋季";
+                    return "7月是秋季";
                 case 8:
-                    return month + "是秋季";
+                    return "8月是秋季";
                 case 9:
-                    return month + "是秋季";
+                    return "9月是秋季";
                 default:
-                    return month + "是冬季";
+                    return month + "月是冬季";
             }
         }
-
     }
 }
