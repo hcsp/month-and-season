@@ -37,5 +37,5 @@ public class Main {
             default:
                 return "非法输入";
         }
-    }
+    } 
 }
