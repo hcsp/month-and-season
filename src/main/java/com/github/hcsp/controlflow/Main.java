@@ -22,24 +22,24 @@ public class Main {
     public static String monthSeason(int month) {
         String str;
         switch(month){
-            case 12:
+            case 3:
             case 1:
             case 2:
                 str = Integer.toString(month)+"月是冬季";
                 break;
-            case 3:
             case 4:
             case 5:
+            case 6:
                 str = Integer.toString(month)+"月是春季";
                 break;
-            case 6:
             case 7:
             case 8:
+            case 9:
                 str = Integer.toString(month)+"月是夏季";
                 break;
-            case 9:
             case 10:
             case 11:
+            case 12:
                 str = Integer.toString(month)+"月是秋季";
                 break;
             default:
