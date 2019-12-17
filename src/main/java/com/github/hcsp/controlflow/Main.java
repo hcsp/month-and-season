@@ -19,5 +19,33 @@ public class Main {
      * @param month 月份
      * @return 结果字符串
      */
-    public static String monthSeason(int month) {}
+    public static String monthSeason(int month) {
+        String str;
+        switch(month){
+            case 12:
+            case 1:
+            case 2:
+                str = Integer.toString(month)+"月是冬季";
+                break;
+            case 3:
+            case 4:
+            case 5:
+                str = Integer.toString(month)+"月是春季";
+                break;
+            case 6:
+            case 7:
+            case 8:
+                str = Integer.toString(month)+"月是夏季";
+                break;
+            case 9:
+            case 10:
+            case 11:
+                str = Integer.toString(month)+"月是秋季";
+                break;
+            default:
+                str = "非法输入";
+                break;
+        }
+        return str;
+    }
 }
