@@ -4,13 +4,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(monthSeason(0));
         System.out.println(monthSeason(1));
-        System.out.println(monthSeason(2));
-        System.out.println(monthSeason(3));
-        System.out.println(monthSeason(4));
         System.out.println(monthSeason(5));
         System.out.println(monthSeason(9));
         System.out.println(monthSeason(11));
-        System.out.println(monthSeason(12));
     }
 
     /**
@@ -23,30 +19,5 @@ public class Main {
      * @param month 月份
      * @return 结果字符串
      */
-    public static String monthSeason(int month) {
-        String y = "";
-        int m = month -1;
-        if (m < 0) {
-            return "非法输入";
-        }
-
-        switch (m / 3) {
-            case 0:
-                y = "春季";
-                break;
-            case 1:
-                y = "夏季";
-                break;
-            case 2:
-                y = "秋季";
-                break;
-            case 3:
-                y = "冬季";
-                break;
-            default:
-                return "非法输入";
-        }
-
-        return month + "月是" + y;
-    }
+    public static String monthSeason(int month) {}
 }
