@@ -5,7 +5,7 @@ public class Main {
         System.out.println(monthSeason(0));
         System.out.println(monthSeason(1));
         System.out.println(monthSeason(5));
-        System.out.println(monthSeason(9));
+        System.out.println(monthSeason(7));
         System.out.println(monthSeason(11));
     }
 
@@ -19,5 +19,27 @@ public class Main {
      * @param month 月份
      * @return 结果字符串
      */
-    public static String monthSeason(int month) {}
+    public static String monthSeason(int month) {
+        // 1-3 春 4-6 秋 7-9 夏 10-12 冬
+        switch (month) {
+            case 1:
+            case 2:
+            case 3:
+                return "" + month + "月是春季";
+            case 4:
+            case 5:
+            case 6:
+                return "" + month + "月是夏季";
+            case 7:
+            case 8:
+            case 9:
+                return "" + month + "月是秋季";
+            case 10:
+            case 11:
+            case 12:
+                return "" + month + "月是冬季";
+            default:
+                return "非法输入";
+        }
+    }
 }
